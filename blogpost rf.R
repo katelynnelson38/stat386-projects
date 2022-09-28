@@ -8,17 +8,19 @@ glimpse(iris)
 iris %>%
   group_by(Species) %>% count()
 
-iris_split <- initial_split(iris)
-iris_train <- training(iris_split)
-iris_test <- testing(iris_split)
-
-set.seed(567)
-iris_folds <- vfold_cv(iris_train)
+# iris_split <- initial_split(iris)
+# iris_train <- training(iris_split)
+# iris_test <- testing(iris_split)
+# 
+# set.seed(567)
+# iris_folds <- vfold_cv(iris_train)
 
 iris_boot <- bootstraps(iris)
 iris_boot
 
-iris_rec <- recipe(Species ~ ., data = iris)
+iris_rec <- recipe(Species ~ ., data = iris) %>%
+  step_center() %>%
+  step_scale()
 
 iris_prep <- prep(iris_rec)
 juice(iris_prep)
