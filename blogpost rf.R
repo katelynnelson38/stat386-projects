@@ -56,3 +56,4 @@ rf_model %>%
   set_engine("ranger", importance = "permutation") %>%
   fit(Species ~ ., data = juice(iris_prep)) %>%
   vip()
+
