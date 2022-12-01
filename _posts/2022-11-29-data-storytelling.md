@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Landslides: A Narrative Edition - IN PROGRESS"
-date:   2022-12-02
+date:   2022-11-29
 author: Katelyn Nelson
 description: Learn about...
 image: /assets/images/datastory-post/susan-q-yin-2JIvboGLeho-unsplash.jpg
@@ -18,6 +18,8 @@ Once the data was nice and tidy, I could begin to learn from it. So after brains
 # summary of data story
 
 # graphic that tells the story
+
+{% include country_landslides.html %}
 
 # link to github repo
 
