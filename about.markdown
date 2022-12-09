@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
+<img align="right" src="/assets/images/me.jpg">
+
 Hello! My name is Katelyn and I am so excited to have you stop by my blog! 
 
 This blog was originally created as a class project, but is something that I want to use to continue posting about my latest projects in Python and R. I hope that my projects and tutorials can help other people learn how they can contribute to the world of data and statistics 😊.
