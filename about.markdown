@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img align="right" src="/assets/images/me.jpg">
+<img align="right" src="assets/images/me.jpg">
 
 Hello! My name is Katelyn and I am so excited to have you stop by my blog! 
 
