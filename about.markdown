@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<img align="right" src="assets/images/me.jpg">
+<img align="right" src="https://github.com/katelynnelson38/stat386-projects/blob/main/assets/images/me.jpg" alt="" style="width:300px;"/>
 
 Hello! My name is Katelyn and I am so excited to have you stop by my blog! 
 
