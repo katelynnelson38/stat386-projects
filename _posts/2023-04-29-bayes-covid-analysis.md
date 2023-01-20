@@ -7,13 +7,18 @@ description: Comparing the average age of COVID-19 realted deaths for men an wom
 image: /assets/images/bayescovid-post/fusion-medical-animation-EAgGqOiDDMg-unsplash.jpg
 ---
 
-Generally, we know that men die earlier than women. Does this also apply to the recent pandemic and the risk of COVID-19 related death? Let's find out!
+Generally, we know that men die earlier than women, but does this also apply to the recent pandemic and the risk of COVID-19 related death?  Let's find out!
 
 Using data from ... I will do a Bayesian analysis to compare the death of 
 
-Our research question addresses whether or not there is a difference in the average age of death and the variance of average age of death between men and women that died due to COVID-19. To compare these values we will approximate the average ages by using Gibbs sampling. We expect to see that men will have a lower age than women at the time of death on average.
+What we really want to know is whether or not there is a difference in the average age of death between men and women that died due to COVID-19. To compare these values we will approximate the average ages using Gibbs sampling.
 
-Our two parameters of interest are the average age of death due to COVID-19 in mean and women ($\mu_M$ and µW ) and the variance of age of death due to COVID-19 for men and women (σM and σW ).
+# Set up the problem
+
+Before we start the analysis, what are the unknown parameters that we want to approximate? Well, to compare them, we want to know the average age of death due to COVID-19 in men (&mu;<sub>M</sub>) and in women (&mu;<sub>W</sub>).
+<!--and the variance of age of death due to COVID-19 for men and women (&sigma;<sub>M</sub> and &sigma;<sub>W</sub>). -->
+
+We also need to decide what our prior distributions will be. The Normal Distribution is a good model for ages and a quick Google search reveals...
 
 # Methods
 
